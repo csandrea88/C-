@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/obj/Debug/netcoreapp2.0/BoxUnbox.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/obj/Debug/netcoreapp2.0/BoxUnbox.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/obj/Debug/netcoreapp2.0/BoxUnbox.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/bin/Debug/netcoreapp2.0/BoxUnbox.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/bin/Debug/netcoreapp2.0/BoxUnbox.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/bin/Debug/netcoreapp2.0/BoxUnbox.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/bin/Debug/netcoreapp2.0/BoxUnbox.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/bin/Debug/netcoreapp2.0/BoxUnbox.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/obj/Debug/netcoreapp2.0/BoxUnbox.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/BoxUnbox/obj/Debug/netcoreapp2.0/BoxUnbox.pdb

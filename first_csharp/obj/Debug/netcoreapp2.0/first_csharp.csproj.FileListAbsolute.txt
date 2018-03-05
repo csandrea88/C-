@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.pdb
