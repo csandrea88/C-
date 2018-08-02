@@ -1,0 +1,8 @@
+{
+  "name": "BankAccts",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6"
+    
+  }
+}

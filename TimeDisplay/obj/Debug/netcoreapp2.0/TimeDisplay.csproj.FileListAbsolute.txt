@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.pdb

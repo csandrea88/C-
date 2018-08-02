@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.pdb

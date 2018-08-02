@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model RESTauranter.Models.REST
+
+<h2>Reviews:</h2><br>
+
+@{
+     foreach (var REST in ViewBag.RESTs)
+     {
+        <h4>Review for: @REST.REST_Name  @REST.Stars  Stars</h4>
+        <h6>Reviewer: @REST.Rev_Name, @REST.VisitDate</h6>
+        <h6>@REST.Review</h6>
+        <hr>
+     }
+ }
+
+
+
+

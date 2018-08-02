@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>DojoDachi</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <center>
+            <h1>Hi I am Turtle Dachi!</h1><br>
+            <p>Fullness: @ViewBag.full   Happiness: @ViewBag.happy    Meals: @ViewBag.meals    Energy @ViewBag.energy</p><br>
+            <img src="/images/turtle.jpeg" alt="turtle dachi"/><br>
+            <p>@ViewBag.msg</p>
+            @if (ViewBag.status == "Won" || ViewBag.status == "Lost") {
+            
+                <form action="restart" method="get"><input type='submit' value='reset'></form>
+            
+            } else {           
+                
+                <form action="feed" method="get"><input type='submit' value='Feed'></form> 
+                <form action="play" method="get"><input type='submit' value='Play'></form> 
+                <form action="work" method="get"><input type='submit' value='Work'></form> 
+                <form action="sleep" method="get"><input type='submit' value='Sleep'></form>
+                
+                }
+        </center>
+    </body>
+</html>

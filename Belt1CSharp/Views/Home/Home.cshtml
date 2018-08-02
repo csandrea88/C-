@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Dojo Activity Center</h1>
+<p><a href="logout"> Log Off</a></p>
+<p>Welcome @ViewBag.FName!</p>
+<hr>
+<Table>
+    <tr>
+        <td>Activity</td>
+        <td>Date and Time</td>
+        <td>Duration</td>
+        <td>Event Coordinator</td>
+        <td>Number of Participants</td>
+        <td>Actions</td>
+    </tr>
+   
+        @foreach (var activity in ViewBag.Activities)
+        {
+            <text>
+                <tr>
+                    <td><a href="activityDtls/@activity.ActivityId">@activity.Title</a> </td>
+                    <td>@activity.Date</td>
+                    <td>@activity.Duration @activity.DuratType</td>
+                    <td>@activity.EventCoordFName</td>
+                    <td>@activity.Participants.Count</td> 
+                
+                    @if (ViewBag.sessuserid == activity.UserId) {
+                        <td><a href="deleteActivity/@activity.ActivityId">Delete</a></td>
+                    } else {
+                        @if (activity.Participants.Count > 0) {
+                            var unJoin = false;
+                            @foreach (var participant in activity.Participants) {
+                                @if (participant.Userid == ViewBag.sessuserid) {
+                                    <td><a href="deleteParticipant/@participant.ParticipantId">Un-Join</a></td>
+                                    unJoin = true;
+                                }
+                            }
+                            if (!unJoin) {
+                                <td><a href="addParticipant/@activity.ActivityId">Join</a></td>
+                            }
+                        } else {
+                            <td><a href="addParticipant/@activity.ActivityId">Join</a></td>
+                        }   
+                    }
+                </tr>    
+            </text>
+           
+        }
+   
+</Table><br><br>
+
+<a href="addActivity">Add New Activity</a>

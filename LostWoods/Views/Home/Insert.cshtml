@@ -1,0 +1,37 @@
+
+@model LostWoods.Models.Trail
+
+<h1>Add A New Trail</h1>
+
+<form asp-controller='Home' asp-action='addtrail' method='post'>
+
+    <label class = "form-control" asp-for='Name'>Trail Name</label> 
+    <input asp-for='Name' type='text' name = 'Name'>
+    <span asp-validation-for='Name'></span><br><br>
+        
+    <label>Description</label> 
+    <input class = "form-control" asp-for='Descrip' type='text' name = 'Descrip'>
+    <span asp-validation-for='Descrip'></span><br><br>
+
+    <label>Trail Length</label> 
+    <input class = "form-control" asp-for='Length' type='text' name = 'Length'>
+    <span asp-validation-for='Length'></span><br><br>
+
+    <label>Elevation Change</label> 
+    <input class = "form-control" asp-for='ElevChg' type='text' name = 'ElevChg'>
+    <span asp-validation-for='ElevChg'></span><br><br>
+
+    <label>Longitude</label> 
+    <input class = "form-control" asp-for='Longitude' type='text' name = 'Longitude'>
+    <span asp-validation-for='Longitude'></span><br><br>
+
+    <label>Latitude</label> 
+    <input class = "form-control" asp-for='Latitude' type='text' name = 'Latitude'>
+    <span asp-validation-for='Latitude'></span><br><br>
+
+    <input type="submit" name="Create Record">
+
+</form>
+
+
+<p><a href="gohome">Go Home</a></p>

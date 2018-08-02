@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Time Display</title>
+    </head>
+    <body>
+        @{
+        var dateOnly = DateTime.Now.ToString("MM-dd-yyyy");    
+        var timeOnly = DateTime.Now.ToString("hh:mm tt");
+        }
+         <h2>The current time and date:</h2>
+         <h4>@dateOnly</h4>
+         <h4>@timeOnly</h4>
+         
+    </body> 
+</html>

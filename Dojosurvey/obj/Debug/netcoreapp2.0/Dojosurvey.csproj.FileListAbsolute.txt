@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/obj/Debug/netcoreapp2.0/Dojosurvey.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/obj/Debug/netcoreapp2.0/Dojosurvey.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/obj/Debug/netcoreapp2.0/Dojosurvey.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/bin/Debug/netcoreapp2.0/Dojosurvey.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/bin/Debug/netcoreapp2.0/Dojosurvey.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/bin/Debug/netcoreapp2.0/Dojosurvey.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/bin/Debug/netcoreapp2.0/Dojosurvey.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/bin/Debug/netcoreapp2.0/Dojosurvey.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/obj/Debug/netcoreapp2.0/Dojosurvey.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojosurvey/obj/Debug/netcoreapp2.0/Dojosurvey.pdb

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+    </head>
+    <body>
+        @{
+            string rnum = "";
+
+            Random rand = new Random();
+            
+            string chars="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            
+            for(int i=1; i<15; i++) {    
+                rnum += chars[rand.Next(chars.Length)];
+            }
+        }
+        <h1>Random passcode (passcode #@ViewBag.count)</h1><br>
+        <form action="generate" method="get">
+            <p>@rnum</p><br>
+            <input type='submit' value='Generate'>    
+        </form>
+        <form 
+    </body>
+</html>

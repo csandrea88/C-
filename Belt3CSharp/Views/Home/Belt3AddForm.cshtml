@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Add Belt3";
+}
+    @model Belt3CSharp.Models.Belt3Val 
+
+    <h1>New Action</h1>
+    <p><a href="/home"> Home</a></p>
+    <p><a href="/logout"> Log Off</a></p>
+    
+    <hr>
+    <h4>@ViewBag.errors</h4> 
+
+    <br>
+    <h3>Add </h3><br>    
+       
+        <form asp-controller='Home' asp-action='addBelt3' method='post'>
+            
+            <label asp-for='Belt3stg1'>Product Name:</label> 
+            <input asp-for='Belt3stg1' type='text' name='Belt3stg1'>
+            <span asp-validation-for='Belt3stg1'></span><br><br>
+            
+            <label asp-for='Belt3stg2'>Description:</label> 
+            <input asp-for='Belt3stg2' type='text' name='Belt3stg2'>
+            <span asp-validation-for='Belt3stg2'></span><br><br>
+
+            <label asp-for='Belt3int1'>Starting Bid:</label> 
+            <input asp-for='Belt3int1' type='number' name='Belt3int1'>
+            <span asp-validation-for='Belt3int1'></span><br><br>
+            
+            <label asp-for='Belt3date'>End Date:</label> 
+            <input asp-for='Belt3date' type='datetime-local' name='Belt3date'>
+            <span asp-validation-for='Belt3date'></span><br><br>
+
+            <input type='submit' value='Add'>
+        
+        </form><br><br><br>

@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model RESTauranter.Models.REST
+
+<h1>Write a new Review</h1>
+<form asp-controller='Home' asp-action='addRev' method='post'>
+
+    <label  asp-for='Rev_Name'>Reviewer Name</label> 
+    <input class = "form-control" asp-for='Rev_Name' type='text' name = 'Rev_Name'>
+    <span asp-validation-for='Rev_Name'></span><br><br>
+        
+    <label asp-for='REST_Name'>Restaurant Name</label> 
+    <input class = "form-control" asp-for='REST_Name' type='text' name = 'REST_Name'>
+    <span asp-validation-for='REST_Name'></span><br><br>
+
+    <label asp-for='Review'>Review</label> 
+    <input class = "form-control" asp-for='Review' type='text' name = 'Review'>
+    <span asp-validation-for='Review'></span><br><br>
+
+    <label asp-for='VisitDate'>Date of Visit</label> 
+    <input class = "form-control" asp-for='VisitDate' type='date' name = 'VisitDate'>
+    <span asp-validation-for='VisitDate'></span><br><br>
+
+    <input type="submit" name="Submit">
+
+</form>  
+
+

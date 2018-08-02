@@ -1,0 +1,14 @@
+/*Write all of your CSS here*/
+textarea {
+    height: 200px;
+    width: 300px;
+    margin-top:15px;
+}
+
+form {
+    display: inline-block;
+}
+
+big {
+    height: 300px;
+    width: 150px;

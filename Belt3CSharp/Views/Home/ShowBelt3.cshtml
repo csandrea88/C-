@@ -1,0 +1,26 @@
+<h3>Hi, @ViewBag.FName</h3> 
+<h6><a href="/logout"> Log Out</a></h6>
+<h6><a href="/Home"> Home</a></h6>
+
+<h4>Product Name:  @ViewBag.Belt3.Belt3stg1</h4>
+<p>Time Remaining:  @ViewBag.Belt3.Belt3int2</p><br>
+
+<p>Description:  @ViewBag.Belt3.Belt3stg2</p><br><br>
+
+@if (@ViewBag.maxbid > 0) {
+    <p>Current Highest Bid: @ViewBag.maxbid</p>
+    <p>By:  @ViewBag.Name</p>
+} else {
+    <p>Current Highest Bid: 0</p>
+    <p>No Bids yet</p>
+}
+<p>@TempData["error"]</p>
+<form action='/addMtoM/@ViewBag.Belt3.Belt3Id/@ViewBag.maxbid' method='post'>    
+   
+    <input type='text' value="Your Bid Goes Here" name='BidAmt'>
+
+    <input type='submit' value='Bid!'>
+
+</form>
+
+

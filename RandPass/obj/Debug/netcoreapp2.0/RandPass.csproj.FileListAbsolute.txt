@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/obj/Debug/netcoreapp2.0/RandPass.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/obj/Debug/netcoreapp2.0/RandPass.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/obj/Debug/netcoreapp2.0/RandPass.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/bin/Debug/netcoreapp2.0/RandPass.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/bin/Debug/netcoreapp2.0/RandPass.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/bin/Debug/netcoreapp2.0/RandPass.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/bin/Debug/netcoreapp2.0/RandPass.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/bin/Debug/netcoreapp2.0/RandPass.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/obj/Debug/netcoreapp2.0/RandPass.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/RandPass/obj/Debug/netcoreapp2.0/RandPass.pdb

@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Welcome, @ViewBag.FName</h1>
+<a href="logout"> Log Out</a>
+
+<form action='addBelt3' method='post'>
+
+    <input style="width:500px" type="text" name ="postmessage" value="Post Something witty here ...">
+    <input type='submit' value='Idea!'>
+
+</form>
+
+@foreach (var post in ViewBag.Posts)
+{
+    <p><a href="userprof/@post.User.UserId">@post.User.FName</a> says:</p>
+    <p>@post.Message</p>
+    <a href="addLike/@post.PostId">Like</a>
+    <p><a href="likes/@post.PostId">@post.Likes.Count people</a> like this</p>
+
+    @if (ViewBag.sessuserid == post.UserId) {
+        <a href="deletePost/@post.PostId">Delete</a>
+    }
+}

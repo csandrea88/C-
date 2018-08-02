@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+    @model Belt3CSharp.Models.Login
+
+    <br> 
+    <h2> Login: </h2><br>
+
+    <h4>@ViewBag.errors</h4> 
+    
+    <form asp-controller='Login' asp-action='loginp' method='post'>
+        
+        
+        <div class="form-group">
+            <label asp-for='Email'>Email:</label> 
+            <input asp-for='Email' type='text' name='email' class="form-control">
+            <span asp-validation-for='Email'></span><br><br>
+        </div>
+
+        <div class="form-group"></div>
+            <label asp-for='Password'>Password:</label> 
+            <input asp-for='Password' type='password' name='password' class="form-control">
+            <span asp-validation-for='Password'></span><br><br>
+         
+            <input type='submit' class="btn btn-default" value='Login'> <br><br>
+
+            <a href="/register"> Need to Register</a><br>
+            <p></p>
+            <a href="/logout"> Log Out</a>
+        </div>
+        
+    </form> <br><br>
+

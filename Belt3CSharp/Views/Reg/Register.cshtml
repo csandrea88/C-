@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Registration";
+}
+    @model Belt3CSharp.Models.Regis
+    
+    <br>
+    <h6>@ViewBag.errors</h6> 
+
+    <br>
+    <h3>Registration Form</h3><br>    
+       
+        <form asp-controller='Reg' asp-action='processreg' method='post'>
+            
+            
+            <label asp-for='FName'>First Name:</label> 
+            <input asp-for='FName' type='text' name='fname'>
+            <span asp-validation-for='FName'></span><br><br>
+            
+            <label asp-for='LName'>Last Name:</label> 
+            <input asp-for='LName' type='text' name='lname'>
+            <span asp-validation-for='LName'></span><br><br>
+            
+            
+            <label asp-for='Email'>Email:</label> 
+            <input asp-for='Email' type='text' name='email'>
+            <span asp-validation-for='Email'></span><br><br>
+
+            <!-- <label asp-for='Userstrg1'>Alias:</label> 
+            <input asp-for='Userstrg1' type='text' name='Userstrg1'>
+            <span asp-validation-for='Userstrg1'></span><br><br>
+             -->
+            <!-- <label asp-for='Userint1'>Userint1:</label> 
+            <input asp-for='Userint1' type='text' name='Userint1'>
+            <span asp-validation-for='Userint1'></span><br><br> -->
+
+            <label asp-for='Password'>Password:</label> 
+            <input asp-for='Password' type='password' name='password'>
+            <span asp-validation-for='Password'></span><br><br>
+            
+            
+            <label asp-for='CPassword'>Confirm:</label> 
+            <input asp-for='CPassword' type='password' name='cpassword'>
+            <span asp-validation-for='CPassword'></span><br><br>
+            
+            <input type='submit' value='Register'>
+        
+        </form><br><br><br>
+
+        <a href="Login"> Already Registered</a>
+
+
+        
+        

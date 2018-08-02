@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Add an Activity";
+}
+    @model Belt3CSharp.Models.Belt3Val 
+
+    <h1>Dojo Activity Center</h1>
+    <p><a href="/home"> Home</a></p>
+    <p><a href="/logout"> Log Off</a></p>
+    <p>Welcome @ViewBag.FName!</p>
+    <hr>
+    <h4>@ViewBag.errors</h4> 
+
+    <br>
+    <h3>Create an Activity</h3><br>    
+       
+        <form asp-controller='Home' asp-action="'" + @ViewBag.action + "'" method='post'>
+            
+            <label asp-for='Belt3stg1'>Belt3stg1:</label> 
+            <input asp-for='Belt3stg1' type='text' name='Belt3stg1'>
+            <span asp-validation-for='Belt3stg1'></span><br><br>
+            
+            <label asp-for='Belt3stg2'>Belt3stg2:</label> 
+            <input asp-for='Belt3stg2' type='text' name='Belt3stg2'>
+            <span asp-validation-for='Belt3stg2'></span><br><br>
+
+            <label asp-for='Belt3stg3'>Belt3stg3:</label> 
+            <input asp-for='Belt3stg3' type='text' name='Belt3stg3'>
+            <span asp-validation-for='Date'></span><br><br>
+            
+            <label asp-for='Belt3stg4'>Belt3stg4:</label> 
+            <input asp-for='Belt3stg4' type='text' name='Belt3stg4'>
+            <span asp-validation-for='Belt3stg4'></span><br><br>
+
+            <label asp-for='Belt3stg5'>Belt3stg5:</label> 
+            <select asp-for='Belt3stg5'name="Belt3stg5">
+                <option value="Days">Days</option>
+                <option value="Hours">Hours</option>
+                <option value="Minutes">Minutes</option>
+            </select>
+            <span asp-validation-for='Belt3stg5'></span><br><br>
+
+            <label asp-for='Belt3int1'>Belt3int1:</label> 
+            <input asp-for='Belt3int1' type='number' name='Belt3int1'>
+            <span asp-validation-for='Belt3int1'></span><br><br>
+            
+            <label asp-for='Belt3int2'>Belt3int2:</label> 
+            <input asp-for='Belt3int2' type='number' name='Belt3int2'>
+            <span asp-validation-for='Belt3int2'></span><br><br>
+
+            <label asp-for='Belt3date'>Belt3int2:</label> 
+            <input asp-for='Belt3date' type='datetime' name='Belt3date'>
+            <span asp-validation-for='Belt3date'></span><br><br>
+
+            <input type='submit' value='Create'>
+        
+        </form><br><br><br>

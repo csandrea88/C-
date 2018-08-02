@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/obj/Debug/netcoreapp2.0/SimpleCrud.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/obj/Debug/netcoreapp2.0/SimpleCrud.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/obj/Debug/netcoreapp2.0/SimpleCrud.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/bin/Debug/netcoreapp2.0/SimpleCrud.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/bin/Debug/netcoreapp2.0/SimpleCrud.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/bin/Debug/netcoreapp2.0/SimpleCrud.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/bin/Debug/netcoreapp2.0/SimpleCrud.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/bin/Debug/netcoreapp2.0/SimpleCrud.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/obj/Debug/netcoreapp2.0/SimpleCrud.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/SimpleCrud/obj/Debug/netcoreapp2.0/SimpleCrud.pdb

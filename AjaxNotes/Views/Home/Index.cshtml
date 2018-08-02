@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h4>Notes</h4>
+<hr width="400px">
+
+
+<center>
+    @{ 
+        foreach (var note in ViewBag.Notes) {
+            <form action="update/@note["id"]" method="post">
+                <input type="text" name="title" value="@note["title"]"><br>
+                  <textarea name=desc>@note["description"]</textarea><br>
+                <button type="submit" value="Update">Update</button><br><br>
+            </form><br>
+            <form action="delete/@note["id"]" method="post">
+                    <button type="submit" value="Delete">Delete</button>
+            </form><br><br>
+        }
+
+    }
+    <form action="insert" method="post">
+        <input type="text" name="title" value="Enter Title here"><br>
+        <textarea name="desc">Enter Description here...</textarea><br>
+        <button type="submit" value="Add Note">Add a Note</button>
+    </form>
+
+</center>

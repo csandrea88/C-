@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.pdb

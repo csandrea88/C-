@@ -1,0 +1,38 @@
+<br><br>
+<div>
+    <h2>CodingDojo Wall</h2><br>
+    <h5>Welcome, @ViewBag.LoggedInFName </h5>
+    <a href="logout">logout</a>
+</div>
+<hr>
+
+<form action="insmsg" method="post">
+    Post a Message:  
+    <input type="text" name="message"/><br><br>
+    <input type="submit" value="Post A Message"><br>
+</form>
+
+@{
+    foreach (var msg in ViewBag.Messages) {
+        // <p>@msg["First_Name"]@msg["Last_Name"]@msg["created_On"]</p>
+        
+            <p>@msg["First_Name"] @msg["Last_Name"] - @msg["Created_On"]</p>
+            <p>Message: @msg["Message"]</p>
+        
+        foreach (var comment in ViewBag.Comments) {
+            
+            if (comment["message_id"] == msg["id"]) {
+                <p>@comment["First_Name"] @comment["Last_Name"] - @comment["created_On"]</p>
+                <p>Comment: @comment["comment"]</p>
+            }   
+        }
+    
+        <form action="inscmt" method="post">
+            Post a Comment:  <br>
+            <input type="text" name="message"/><br>
+            <input type="hidden" name="msgid" value='@msg["id"]'><br>
+            <input type="submit" value="Add a Comment"><br>
+        </form>
+    }
+}
+        

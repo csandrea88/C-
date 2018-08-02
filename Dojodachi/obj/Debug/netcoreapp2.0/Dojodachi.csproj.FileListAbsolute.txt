@@ -1,0 +1,10 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/C#/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.pdb

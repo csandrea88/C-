@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Quote Page";
+}
+<br><br>
+<h3>Here are the awesome quotes!</h3><br>
+
+@{ 
+        foreach (var entry in ViewBag.Quotes) {
+            <p> @entry["Quote"] </p>
+            <p> @entry["Name"] </p>
+            <p> @entry["Created_at"] </p>
+            <hr>
+        }
+    
+}

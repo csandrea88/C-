@@ -1,0 +1,22 @@
+/*Write all of your CSS here*/
+form {
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+
+input[type="textarea"] {
+    width: 300px;
+    height: 100px;
+}
+.top {
+    vertical-align: top
+}
+a {
+    margin-left: 75px;
+}
+button {
+    margin-left: 80px
+}

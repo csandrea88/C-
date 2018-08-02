@@ -1,0 +1,34 @@
+<h1> Welcome to the Wedding Plannr</h1>
+
+<table>
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guest</th>
+        <th>Action</th>
+    </tr>
+    @{foreach (var Wedding in ViewBag.Wedplanrs)
+        {
+            <tr>
+                <td>@Wedding.WedderOne and @Wedding.WedderTwo</td>
+                <td>@Wedding.WeddDate</td>
+                <td>@Wedding.Users.Count</td>
+                if (@ViewBag.ViewBag.userid == @Wedding.UserId) {
+                    <td><a href="Delete/@Wedding.WPId">Delete</a></td>
+                } else {
+                    if (@Wedding.Users.Count = 0) {
+                        <td><a href="RSVP/@Wedding.WPId">RVSP</a> </td>
+                    } else { 
+                        foreach (RVSP in ViewBag.RSVPs) {
+                            if  (ViewBag.Wedplanrs.Userid = RVSP.UserId) {
+                                <td><a href="Un-RSVP/@Wedding.WPId">Un-RSVP</a></td>
+                            } else { 
+                                <td><a href="RSVP/@Wedding.WPId">RSVP</a></td>
+                            }
+                        }                              
+                    } 
+                }
+            </tr> 
+        }
+    }
+</table> 
