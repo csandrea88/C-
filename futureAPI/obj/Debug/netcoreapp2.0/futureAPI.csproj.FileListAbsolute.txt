@@ -1,0 +1,13 @@
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/futureAPI.deps.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/futureAPI.runtimeconfig.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/futureAPI.runtimeconfig.dev.json
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/futureAPI.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/futureAPI.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/obj/Debug/netcoreapp2.0/futureAPI.csproj.CoreCompileInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/obj/Debug/netcoreapp2.0/futureAPI.AssemblyInfoInputs.cache
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/obj/Debug/netcoreapp2.0/futureAPI.AssemblyInfo.cs
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/obj/Debug/netcoreapp2.0/futureAPI.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/obj/Debug/netcoreapp2.0/futureAPI.pdb
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/andreacronin/Desktop/CodingBootcamp/CodingDojo/CodingChalls/Crowe/futureAPI/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll

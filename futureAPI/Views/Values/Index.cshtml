@@ -1,0 +1,35 @@
+    
+    <h2>Book Title API</h2>
+    
+    <form action="get" method="get" style="margin: 0px;float:left">
+        <input type="text" name="title" value="Enter Title here">
+        <button type="submit" value="Get">Search</button>
+    </form><br><br>
+    
+    <table>
+        <!-- Create a list(via table rows) of Titles and adding the ID from each title and append it to update/, delete/ 
+             foreach (var atitle in ViewBag.Titles) 
+             action="update/atitle.title" and action="delete/atitle.title" -->
+        <tr>
+            <td> Learn MVC Architecture </td>
+            <td>
+                <form action="update/1" method="post" style="margin: 0px">
+                    <button type="submit" value="Update">Update</button>
+                </form>
+            </td>
+            <td>
+                <form action="delete/1" method="post" style="margin: 0px">
+                    <button type="submit" value="Delete">Delete</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <form action="insert" method="post">
+        <input type="text" name="title" value="Enter Title here"><br>
+        <button type="submit" value="Add Note">Add a Title</button>
+    </form>
+
+
